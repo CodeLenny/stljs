@@ -1,9 +1,14 @@
 {
   "name": "@codelenny/stljs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Ryan Leonard (http://ryanleonard.us)",
   "description": "Read, parse, and convert STL files",
-  "keywords": ["stl", "3D model", "3D printing", "stereolithography"],
+  "keywords": [
+    "stl",
+    "3D model",
+    "3D printing",
+    "stereolithography"
+  ],
   "homepage": "http://github.com/CodeLenny/stljs",
   "bugs": {
     "url": "http://github.com/CodeLenny/stljs/issues"
