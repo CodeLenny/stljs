@@ -1,17 +1,17 @@
 {
-  "name": "stljs",
-  "version": "0.1.5",
-  "author": "Wil Chung",
+  "name": "@codelenny/stljs",
+  "version": "0.0.0",
+  "author": "Ryan Leonard (http://ryanleonard.us)",
   "description": "Read, parse, and convert STL files",
   "keywords": ["stl", "3D model", "3D printing", "stereolithography"],
-  "homepage": "http://github.com/cubehero/stljs",
+  "homepage": "http://github.com/CodeLenny/stljs",
   "bugs": {
-    "url": "http://github.com/cubehero/stljs/issues"
+    "url": "http://github.com/CodeLenny/stljs/issues"
   },
   "private": false,
   "repository": {
     "type": "git",
-    "url": "http://github.com/cubehero/stljs.git"
+    "url": "http://github.com/CodeLenny/stljs.git"
   },
   "dependencies": {
     "mustache": "0.7.x"

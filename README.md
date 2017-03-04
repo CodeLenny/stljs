@@ -8,10 +8,12 @@ STL files is only in ASCII
 
 This currently only works on node.js, but will expand to browser stl parsing soon
 
+> This is a fork of [cubehero/stljs](https://github.com/cubehero/stljs) with a few bugs patched.
+
 ## How to install
 
 ````
-npm install stljs
+npm install @codelenny/stljs
 ````
 
 If you'd like to also be able to render STL files, you'll need to install a program
@@ -34,7 +36,7 @@ aptitude install povray
 You have an STL file that you want to read. Here's what you do:
 
 ````
-stljs = require('stljs')
+stljs = require('@codelenny/stljs')
 
 stljs.readFile('teapot.stl'
   , (err, solid, name) ->
@@ -52,7 +54,7 @@ optional progress callback, which gets called as each polygon is parsed.
 Sometimes, you want to convert an STL file into a PNG file. To do that, we can 
 
 ````
-stljs = require('stljs')
+stljs = require('@codelenny/stljs')
 
 stljs.imageify('teapot.stl', { width: 200, height: 100, dst: 'teapot.png' }
   , (err, povOutput, name) ->
