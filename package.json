@@ -1,6 +1,6 @@
 {
   "name": "@codelenny/stljs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Ryan Leonard (http://ryanleonard.us)",
   "description": "Read, parse, and convert STL files",
   "keywords": [
