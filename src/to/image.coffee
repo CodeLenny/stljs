@@ -77,7 +77,7 @@ class Stl.Image
           if parsedError?
             callback(parsedError, stderrStr)
           else
-            callback(new Error("Exit code: #{code}"), stderrStr)
+            callback(new Error("Exit code: #{code} (#{stderrStr})"), stderrStr)
       )
 
     start()
